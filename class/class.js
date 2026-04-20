@@ -2,10 +2,10 @@
 (function() {
   // Week data: short description + project + zoom (null or URL)
   const weeksData = [
-    { week: 1, title: 'Week 1', desc: 'Intro to the course and setup.', project: null, zoom: null },
-    { week: 2, title: 'Week 2', desc: 'HTML basics and semantic markup.', project: null, zoom: null },
-    { week: 3, title: 'Week 3', desc: 'CSS layout and flexbox/grid.', project: null, zoom: null },
-    { week: 4, title: 'Week 4', desc: 'Responsive design and media queries.', project: null, zoom: null },
+    { week: 1, title: 'Lanai Cultural and Heritage Center', desc: 'Explore Lanai through the lens of the Hawaiian Culture', project: null, zoom:'https://lanaichc.org/'  },
+   { week: 2, title: 'Lanai Community Association', desc: 'Supports local groups, provides academic scholarships, senior activities, and community events.', project: null, zoom: 'https://www.lanaipineapplefestival.com/Contact_Us/Contact_Us.htm' },
+   { week: 3, title: 'Lanai Community Health Center', desc: 'Come visit our Local Community Health Center', project: null, zoom: 'https://lanaihealth.org/' },
+   { week: 4, title: 'Pulama Lanai Employment', desc: 'Looking for job oppurtunities? Pulama Lanai has many options!!!', project: null, zoom: 'https://fa-ewcy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1' },
     { week: 5, title: 'Week 5', desc: 'JavaScript fundamentals.', project: null, zoom: null },
     { week: 6, title: 'Week 6', desc: 'DOM manipulation and events.', project: null, zoom: null },
     { week: 7, title: 'Week 7', desc: 'Working with APIs and fetch.', project: null, zoom: null },
